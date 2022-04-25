@@ -34,6 +34,12 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         /// Counts how many words and how many times appears within each paragraph in a document, and checks the matching percentage.
         /// </summary>
         /// <returns>The matching's results.</returns>
+
+        /// <summary>
+        /// Cuenta cuántas palabras y cuántas veces aparece dentro de cada párrafo en un documento, y verifica el porcentaje de coincidencia.
+        /// </summary>
+        /// <returns>Los resultados del emparejamiento.</returns>
+
         public override ComparatorMatchingScore Run(){     
             //This order is meant to improving performance
             ExcludeSampleExactMatches(); 
