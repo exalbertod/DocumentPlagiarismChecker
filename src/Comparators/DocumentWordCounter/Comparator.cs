@@ -27,6 +27,16 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// <param name="fileRightPath">The right side file's path.</param>
         /// <param name="settings">The settings instance that will use the comparator.</param>
         /// <returns></returns>
+
+
+        /// Español:
+        /// <summary>
+        /// Crea una nueva instancia para la clase "Comparator".
+        /// </summary>
+        /// <param name="fileLeftPath">La ruta del archivo correspondiente al lado izquierdo.</param>
+        /// <param name="fileRightPath">La ruta del archivo correspondiente al lado derecho.</param>
+        /// <param name="settings">La configuración que usará en la clase "Comparator".</param>
+        /// <returns></returns>
         public Comparator(string fileLeftPath, string fileRightPath, Settings settings): base(fileLeftPath, fileRightPath, settings){
         }  
         
