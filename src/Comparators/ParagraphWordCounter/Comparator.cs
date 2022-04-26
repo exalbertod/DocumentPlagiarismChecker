@@ -72,7 +72,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
 
         /// Español:
         /// <summary>
-        /// Compara la muestra con el archivo proporcionado y excluye los párrafos que producen una coincidencia falsa positiva entre la muestra y el documento.
+        /// Compara la muestras con el archivo proporcionado y excluye los párrafos que producen una coincidencia falsa positiva entre la muestra y el documento.
         /// </summary>
         private void ExcludeSampleExactMatches(){
             if(this.Sample == null) return;
